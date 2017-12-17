@@ -1,5 +1,4 @@
 // go get ./...
-// https://www.codementor.io/codehakase/building-a-restful-api-with-golang-a6yivzqdo
 
 package main
 
@@ -65,41 +64,7 @@ func getValueByKey(w http.ResponseWriter, r *http.Request){
 }
 
 
-/*
-GET /{key}
-PUT /{key}
 
-PUT - value will be in body. if key doesn't exist create, if it does overwrite
-GET - return value in body if key exists, if not return 404
-/key1
-
-
-GEt:
-	 /1
-	    404
-
-
-	    POST - create
-
-
-
-PUT /1
-
-  	body - string
-    map --key , value
-
-
-   Mutex / channel   /rw mutex
-     Map
-
-     1 hr video tutorial
-     study rest call - 2 hr
-     2 hr
-
-
-	 github.com/gorilla/mux - much better than standard library muxer
-
-*/
 
 
 
